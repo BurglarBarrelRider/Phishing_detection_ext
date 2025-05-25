@@ -1,46 +1,133 @@
-### Email Phishing Detector
-Email Phishing Detector is a Chrome extension designed to help users identify possible phishing threats in their emails. It uses smart detection logic and a clear, interactive interface to deliver real-time analysis directly in your browser.
+# 🛡️ Email Phishing Detector — Chrome Extension
 
-#🔧 Key Features
-🔍 Smart Threat Detection
-Analyzes the content of emails as you view them
+**Email Phishing Detector** is a Chrome extension designed to help users quickly identify and understand potential phishing threats within their emails. Using lightweight analysis methods, visual indicators, and user-friendly design, the extension makes email protection simple and accessible.
 
-Detects a wide range of phishing indicators:
+> 📌 *With phishing scams becoming increasingly common in Kyrgyzstan and globally, this tool offers a practical and accessible solution for staying secure online.*
 
-Pressure tactics and urgent messaging
+---
 
-Suspicious or misleading links
+## 🌍 Language Support
 
-Generic greetings (e.g., “Dear user”)
+The extension currently supports:
+- 🇬🇧 English
+- 🇷🇺 Russian
+- 🇰🇬 Kyrgyz  
+Users can easily switch between languages from the interface.
 
-Requests for private or sensitive data
+---
 
-Time-limited action prompts
+## ✨ Key Features
 
-Possible spoofing of sender identity
+### 🔎 Real-Time Detection
+- Instantly scans open emails in supported providers
+- Flags potential phishing indicators such as:
+  - Urgent or manipulative language
+  - Suspicious or obfuscated URLs
+  - Impersonal or generic greetings
+  - Unusual requests for sensitive information
+  - Pressure-based tactics and fake deadlines
+  - Possible spoofed senders
 
-🎯 Risk Evaluation
-Each email is classified into one of three risk levels:
+### 🎯 Risk Level Classification
+- Emails are labeled with one of three levels:
+  - 🔴 **High Risk** – Very likely a phishing attempt
+  - 🟡 **Suspicious** – Needs careful attention
+  - 🟢 **Low Risk** – No immediate concerns
 
-🔴 High Risk – Strong phishing signs detected
+### 💬 Interactive Feedback
+- Highlights detected issues directly in the email
+- Shows visual badges for each threat type
+- Offers short explanations and suggestions for each problem
+- Actionable recommendations based on risk level
 
-🟡 Suspicious – Proceed with caution
+### 📧 Compatible Email Services
+- Gmail  
+- Outlook  
+- Yahoo Mail  
+*(Support for additional services is planned)*
 
-🟢 Low Risk – No major threats found
+---
 
-💡 Interactive Scanning Results
-Click any detected issue to highlight it in the email
+## 🚀 Installation Guide
 
-Visual badges label threat types for quick understanding
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/your-username/email-phishing-detector.git
 
-Get detailed explanations for each issue
+Open Chrome and go to chrome://extensions/
 
-Tailored recommendations based on the detected risk
+Enable Developer Mode in the top-right corner
 
-📧 Email Provider Compatibility
-Gmail
+Click Load unpacked and select the project folder
 
-Outlook
+The extension icon should now be visible in your Chrome toolbar
 
-Yahoo Mail
-(More platforms planned soon)
+## ▶️ How to Use
+Open an email from Gmail, Outlook, or Yahoo Mail
+
+Click the Email Phishing Detector icon in your browser
+
+Press Scan Current Email
+
+View the analysis report:
+
+Overall risk score
+
+Badges and descriptions of identified issues
+
+Highlighted content in the email
+
+Tailored recommendations
+
+
+## 🗂️ Project Structure
+
+email-phishing-detector/
+├── manifest.json         # Chrome extension config
+├── popup.html            # Extension UI
+├── popup.js              # Frontend logic
+├── content.js            # Email scanning logic (injected)
+└── images/               # Icons and visual assets
+
+## 🧠 Detection Logic
+The extension scans emails for:
+
+Suspicious sender domains
+
+Known phishing keywords and phrases
+
+Pressure tactics and time-sensitive language
+
+Unsafe or misleading URL patterns
+
+Generic greetings
+
+Requests for credentials or payments
+
+## 🔐 Security & Privacy
+Fully local: all scanning is done in your browser
+
+No data leaves your device. We do not request your data or store it in any form
+
+Your emails, personal data, and login credentials are never stored or transmitted. Because we do not request it.
+
+No third-party tracking or analytics
+
+## 🚧 Future Plans
+ Expand support to other email platforms (e.g. ProtonMail, Zoho)
+
+ Integrate AI/ML-based phishing detection
+
+ Add custom scanning rules
+
+ Save scan history (locally)
+
+ Multi-email (bulk) scanning support
+
+ Integration with global phishing databases
+
+ Exportable scan reports (PDF, CSV)
+
+We welcome contributions and ideas!
+Reach out via: burglarbarrelrider@gmail.com
+🛡️ Stay safe, stay informed — protect yourself from phishing with just one click!
