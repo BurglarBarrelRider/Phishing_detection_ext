@@ -130,4 +130,4 @@ No third-party tracking or analytics
 
 We welcome contributions and ideas!
 Reach out via: burglarbarrelrider@gmail.com
-🛡️ Stay safe, stay informed — protect yourself from phishing with just one click!
+# 🛡️ Stay safe, stay informed — protect yourself from phishing with just one click!
